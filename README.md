@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Esta tarea consiste en la implementación de los procedimientos necesarios para realizar las operaciones de `Update` y `Delete` en facturas, utilizando Angular en el frontend y PHP en el backend. La tarea se basa en los conceptos y ejercicios desarrollados en clase.
+Implementación de los procedimientos necesarios para realizar las operaciones de `Update` y `Delete` en facturas, utilizando Angular en el frontend y PHP en el backend.
 
 ## Instrucciones de la Actividad
 
