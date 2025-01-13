@@ -1,4 +1,4 @@
-# SEMANA 05 - TAREA 1
+# DEMO - FACTURA
 
 ## Descripción
 
@@ -36,7 +36,7 @@ Esta tarea consiste en la implementación de los procedimientos necesarios para 
    Actualizar Factura: Se implementó un método para actualizar una factura mediante una confirmación de usuario utilizando SweetAlert2.   
    
    ```typescript
-   //SEMANA 05 - TAREA 1
+   //DEMO - FACTURA
    //DELETE DE FACTURAS
 
    eliminar(idFactura: number) {
@@ -69,7 +69,7 @@ Esta tarea consiste en la implementación de los procedimientos necesarios para 
      });
    }
 
-   //SEMANA 05 - TAREA 1
+   //DEMO - FACTURA
    //UPDATE DE FACTURAS
 
    actualizar(factura: IFactura) {
@@ -82,7 +82,7 @@ Esta tarea consiste en la implementación de los procedimientos necesarios para 
    Actualizar Factura: Método para actualizar los datos de una factura.
 
    ```typescript
-   //SEMANA 05 - TAREA 1
+   //DEMO - FACTURA
    //DELETE DE FACTURAS
    eliminar(idFactura: number): Observable<number> {
      const formData = new FormData();
@@ -90,7 +90,7 @@ Esta tarea consiste en la implementación de los procedimientos necesarios para 
      return this.lector.post<number>(this.apiurl + 'eliminar', formData);
    }
 
-   //SEMANA 05 - TAREA 1
+   //DEMO - FACTURA
    //UPDATE DE FACTURAS
 
    actualizar(factura: IFactura): Observable<string> {
